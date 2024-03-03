@@ -5,7 +5,7 @@
                 <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
                     <div class="all-news-block">
                         <h3 class="news-title">
-                            <span>Latest Articles eiei</span>
+                            <span>Latest Articles</span>
                         </h3>
                         <div class="all-news">
                             <div class="row">
