@@ -36,13 +36,13 @@
               <li class="nav-item">
                 <a href="{{route('projects')}}" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Profile</p>
+                  <p>Project</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
+                <a href="{{route('profile')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Project</p>
+                  <p>Profile</p>
                 </a>
               </li>
           <li class="nav-item">
@@ -51,7 +51,7 @@
               <p>
                 News
               </p>
-            </a>    
+            </a>
           </li>
         </ul>
       </nav>
