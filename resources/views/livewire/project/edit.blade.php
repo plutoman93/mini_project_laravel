@@ -80,7 +80,7 @@
             <div class="row">
                 <div class="col-12">
                 <a href="#" class="btn btn-secondary">Cancel</a>
-                <button type="submit" class="btn btn-success ">Edit</button>
+                <button type="submit" class="btn btn-success floar-right ">Edit</button>
                 </div>
             </div>
             </form>
