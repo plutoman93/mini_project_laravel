@@ -46,7 +46,7 @@
                 </a>
               </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{route('news')}}" class="nav-link">
               <i class="nav-icon fas fa-chart-pie"></i>
               <p>
                 News
