@@ -126,13 +126,19 @@
                       <div class="form-group row">
                         <label for="inputName2" class="col-sm-2 col-form-label">Last Name</label>
                         <div class="col-sm-10">
-                          <input type="text"wire:model="last_name" class="form-control" id="inputName2" placeholder="Name">
+                          <input type="text"wire:model="last_name" class="form-control" id="inputName2" placeholder="Last Name">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="inputName2" class="col-sm-2 col-form-label">Department</label>
+                        <div class="col-sm-10">
+                          <input type="text" wire:model="department" class="form-control" id="inputName2" placeholder="Department">
                         </div>
                       </div>
                       <div class="form-group row">
                         <label for="inputName2" class="col-sm-2 col-form-label">Image</label>
                         <div class="col-sm-10">
-                          <input type="file" wire:model="photo" class="form-control" id="inputName2" placeholder="Name">
+                          <input type="file" wire:model="photo" class="form-control" id="inputName2" placeholder="Image">
                         </div>
                       </div>
                       <div class="form-group row">
