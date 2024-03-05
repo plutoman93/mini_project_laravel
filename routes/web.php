@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
-Route::get('/anucha', function () {
+Route::get('/news', function () {
     return view('news');
 });
 
