@@ -17,9 +17,6 @@ Route::get('/', function () {
     return view('auth.login');
 });
 
-Route::get('/news', function () {
-    return view('news');
-});
 
 Route::get('/admin', function () {
     return view('admin');
@@ -33,6 +30,10 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('admin');
     })->name('dashboard');
+
+    Route::get('/news', function () {
+        return view('index');
+    })->name('news');
 
     Route::get('/profile', function () {
         return view('profile');
