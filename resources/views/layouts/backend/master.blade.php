@@ -15,22 +15,22 @@
     @yield('content')
     @include('layouts.backend.footer')
     @include('layouts.backend.js')
-    
+
   <!-- Preloader -->
-  <div class="preloader flex-column justify-content-center align-items-center">
+  {{-- <div class="preloader flex-column justify-content-center align-items-center">
     <img class="animation__shake" src="asset/backend/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
-  </div>
+  </div> --}}
   @livewireScripts
 
   <!-- Navbar -->
- 
+
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
- 
+
 
   <!-- Content Wrapper. Contains page content -->
-  
+
 
 
   <!-- Control Sidebar -->
