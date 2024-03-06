@@ -2,7 +2,7 @@
 
 @section('content')
 
-@dd($id)
+{{-- @dd($id) --}}
 
 @livewire('project.view' ,['id'=> $id])
 
