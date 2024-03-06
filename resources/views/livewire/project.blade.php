@@ -55,7 +55,7 @@
                       <th style="width: 30%">
                           Photo
                       </th>
-                      <th>
+                      <th style="width: 8%" class="text-center">
                           Email
                       </th>
                       <th style="width: 8%" class="text-center">
