@@ -4,6 +4,6 @@
 
 @dd($id)
 
-@livewire('project.edit' ,['id'=> $id])
+@livewire('project.view' ,['id'=> $id])
 
 @endsection
