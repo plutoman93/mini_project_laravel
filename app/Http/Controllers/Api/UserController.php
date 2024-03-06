@@ -117,7 +117,7 @@ class UserController extends Controller
             ]);
             return response()->json([
                 "status" => "200",
-                "message" => "Inset successfully"
+                "message" => "Insert successfully"
             ]);
         } catch (\Exception $e) {
             return response()->json([
