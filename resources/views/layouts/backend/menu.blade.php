@@ -25,7 +25,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item menu-open">
-            <a href="#" class="nav-link active">
+            <a href="#" class="nav-link ">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Menu
@@ -34,25 +34,25 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{route('projects')}}" class="nav-link active">
+                <a href="{{route('projects')}}" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Project</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('profile')}}" class="nav-link">
+                <a href="{{route('profile')}}" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Profile Setting</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{route('addtask')}}" class="nav-link">
+                <a href="{{route('addtask')}}" class="nav-link ">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Add Task</p>
                 </a>
               </li>
           <li class="nav-item">
-            <a href="{{route('news')}}" class="nav-link">
+            <a href="{{route('news')}}" class="nav-link ">
               <i class="nav-icon fas fa-chart-pie"></i>
               <p>
                 News
