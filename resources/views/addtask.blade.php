@@ -2,6 +2,6 @@
 
 @section('content')
 
-@livewire('project.view' ,['id'=> $id])
+@livewire('addtask')
 
 @endsection

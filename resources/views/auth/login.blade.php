@@ -47,7 +47,7 @@
                                     <div class="text-center"><a href="index.html"><img src="asset/frontend/images/logos/tech.png" alt="" class="img-fluid"></a></div>
                                     <div class="text-center"><a href="index.html"><img src="asset/frontend/images/logos/worksystem.png" alt="" class="img-fluid"></a></div>
 
-                        <h3 class="mt-4">Login Here</h3>
+                        <h3 class="mt-4">Login Here NAJA JUB JUB</h3>
                         <p class="mb-5">Enter your valid mail & password</p>
                         @if ($errors->any())
                             <div class="alert alert-danger">

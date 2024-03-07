@@ -39,6 +39,10 @@ Route::middleware([
         return view('profile');
     })->name('profile');
 
+    Route::get('/addtask', function () {
+        return view('addtask');
+    })->name('addtask');
+
     Route::get('/project', function () {
         return view('projects');
     })->name('projects');

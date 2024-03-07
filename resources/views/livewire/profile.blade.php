@@ -31,7 +31,7 @@
                        alt="User profile picture">
                 </div>
 
-                <h3 class="profile-username text-center">{{$name}} {{$last_name}} </h3>
+                <h3 class="profile-username text-center">{{$last_name}} {{$name}}</h3>
 
                 <p class="text-muted text-center">Software Engineer</p>
 
@@ -129,15 +129,6 @@
                           <input type="text"wire:model="last_name" class="form-control" id="inputName2" placeholder="Last Name">
                         </div>
                       </div>
-                      <div class="form-group row">
-                        <label for="inputName">Department</label>
-                        <select id="inputStatus" wire:model="department" class="form-control custom-select">
-                        <option selected >Select one</option>
-                        <option value="computer">เทคโนโลยีคอมพิวเตอร์</option>
-                        <option value="electric">เทคโนโลยีไฟฟ้า</option>
-                        <option value="plant">พืชศาสตร์</option>
-                        </select>
-                    </div>
                       <div class="form-group row">
                         <label for="inputName2" class="col-sm-2 col-form-label">Image</label>
                         <div class="col-sm-10">
