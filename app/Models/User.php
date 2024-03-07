@@ -36,7 +36,13 @@ class User extends Authenticatable
     //     'department',
     //     'email',
     //     'password',
-    //     ''
+    //     'task_name',
+    //     'task_detail',
+    //     'task_start_date',
+    //     'task_due_date',
+    //     'task_type',
+    //     'task_file',
+
     // ];
 
      protected $guarded = [];
