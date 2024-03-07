@@ -56,10 +56,24 @@ Route::middleware([
         //dd($id);
         return view('project.view',compact('id'));
     })->name('project-view');
+
+    Route::get('/project-edittask/{id}', function($id){
+        //dd($id);
+        return view('project.edittask',compact('id'));
+    })->name('project-edittask');
+
+    Route::get('/project-viewtask/{id}', function($id){
+        //dd($id);
+        return view('project.viewtask',compact('id'));
+    })->name('project-viewtask');
 });
 //สำหรับไปที่หน้าโปรเจ็ค Add
 
 Route::get('/project-add',function(){
     return view('project.add');
 })->name('project-add');
+
+Route::get('/project-addtask',function(){
+    return view('livewire.project.addtask');
+})->name('project-addtask');
 

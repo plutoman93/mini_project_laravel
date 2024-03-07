@@ -47,7 +47,7 @@
               <thead>
                   <tr>
                       <th style="width: 1%">
-                          #
+                          No.
                       </th>
                       <th style="width: 20%">
                           Full Name
