@@ -63,3 +63,6 @@ Route::get('/project-add',function(){
     return view('project.add');
 })->name('project-add');
 
+Route::get('addtask',function(){
+    return view('addtask');
+})->name('addtask');
