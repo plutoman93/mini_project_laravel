@@ -11,7 +11,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>NewsBit - News Magazine Newspaper HTML Template</title>
+    <title>RegisterPage Demo mini project</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -19,7 +19,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    
+
     <!-- THEME CSS
 	================================================== -->
     <!-- Bootstrap -->
@@ -39,7 +39,8 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-7">
                 <div class="signup">
-                    <div class="text-center"><a href="index.html"><img src="asset/frontend/images/logos/logo.png" alt="" class="img-fluid"></a></div>
+                    <div class="text-center"><a href="index.html"><img src="asset/frontend/images/logos/tech.png" alt="" class="img-fluid"></a></div>
+                                    <div class="text-center"><a href="index.html"><img src="asset/frontend/images/logos/worksystem.png" alt="" class="img-fluid"></a></div>
                     <h3 class="mt-4">Sign Up Here</h3>
                     <p class="mb-5">Join with us and feel better</p>
                     @if ($errors->any())
@@ -53,7 +54,7 @@
                      @endif
                     <form method="POST" action="{{ route('register') }}">
                        @csrf
-        
+
                     <div class="col-md-6">
                             <div class="form-group">
                                 <label for="f-name">First Name</label>
