@@ -1,3 +1,5 @@
+@extends('layouts.backend.master')
+@section('content')
 <div>
     <div class="content-wrapper">
         <section class="content-header">
@@ -102,3 +104,4 @@
         <!-- /.content -->
       </div>
     </div>
+    @endsection
