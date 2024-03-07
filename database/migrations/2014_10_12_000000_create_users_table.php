@@ -17,13 +17,14 @@ return new class extends Migration
             $table->string('last_name');
             $table->string('phone_number');
             $table->string('department');
+            $table->string('email')->unique();
+            $table->timestamp('email_verified_at')->nullable();
             $table->string('task_name');
             $table->string('task_detail');
             $table->string('task_start_date');
             $table->string('task_due_date');
             $table->string('task_type');
             $table->string('task_file');
-            $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->foreignId('current_team_id')->nullable();
