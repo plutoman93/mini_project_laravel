@@ -73,7 +73,13 @@ Route::get('/project-add',function(){
     return view('project.add');
 })->name('project-add');
 
+<<<<<<< HEAD
 Route::get('/project-addtask',function(){
     return view('livewire.project.addtask');
 })->name('project-addtask');
 
+=======
+Route::get('addtask',function(){
+    return view('addtask');
+})->name('addtask');
+>>>>>>> a6a9ea0e42e0cfe1d3f7888f338b9288c884181a

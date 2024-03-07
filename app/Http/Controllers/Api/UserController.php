@@ -46,7 +46,12 @@ class UserController extends Controller
                     "password" => $request['password'],
                     "phone_number" => $request['phone_number'],
                     "department" => $request['department'],
-
+                    "task_name" => $request['task_name'],
+                    "task_detail" => $request['task_details'],
+                    "task_start_date" => $request['task_start_date'],
+                    "task_due_date" => $request['task_due_date'],
+                    "task_type"=>$request['task_type'],
+                    "task_file"=>$request['task_file'],
                 ]);
                 return response()->json([
                     "status" => "200",
