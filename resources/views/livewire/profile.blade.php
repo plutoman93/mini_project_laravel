@@ -130,15 +130,6 @@
                         </div>
                       </div>
                       <div class="form-group row">
-                        <label for="inputName">Department</label>
-                        <select id="inputStatus" wire:model="department" class="form-control custom-select">
-                        <option selected >Select one</option>
-                        <option value="computer">เทคโนโลยีคอมพิวเตอร์</option>
-                        <option value="electric">เทคโนโลยีไฟฟ้า</option>
-                        <option value="plant">พืชศาสตร์</option>
-                        </select>
-                    </div>
-                      <div class="form-group row">
                         <label for="inputName2" class="col-sm-2 col-form-label">Image</label>
                         <div class="col-sm-10">
                           <input type="file" wire:model="photo" class="form-control" id="inputName2" placeholder="Image">
