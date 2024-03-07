@@ -11,7 +11,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Demo mini project kum meow tum pruch</title>
+    <title>Demo mini project</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
@@ -44,6 +44,8 @@
                         <div class="text-center"><a href="https://computer.surin.rmuti.ac.th/computer/index.php"><img
                                     src="https://rmuti.ac.th/main/wp-content/uploads/2021/05/RMUTI_KORAT-e1620021467198.png"
                                     width="150" height="150" alt="image" class="img-fluid"></a></div>
+                                    <div class="text-center"><a href="index.html"><img src="asset/frontend/images/logos/tech.png" alt="" class="img-fluid"></a></div>
+                                    <div class="text-center"><a href="index.html"><img src="asset/frontend/images/logos/worksystem.png" alt="" class="img-fluid"></a></div>
 
                         <h3 class="mt-4">Login Here</h3>
                         <p class="mb-5">Enter your valid mail & password</p>
