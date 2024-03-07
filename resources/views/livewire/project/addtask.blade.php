@@ -53,16 +53,7 @@
                     <input type="date" id="inputName" wire:model="task_start_date" class="form-control">
                   </div>
                   <div class="form-group">
-                    <label for="inputStatus">Department</label>
-                    <select id="inputStatus" wire:model="department" class="form-control custom-select">
-                      <option selected >Select one</option>
-                      <option value="computer">เทคโนโลยีคอมพิวเตอร์</option>
-                      <option value="electric">เทคโนโลยีไฟฟ้า</option>
-                      <option value="plant">พืชศาสตร์</option>
-                    </select>
-                  </div>
-                  <div class="form-group">
-                    <label for="inputName">Start Date</label>
+                    <label for="inputName">Due Date</label>
                     <input type="date" id="inputName" wire:model="task_due_date" class="form-control">
                   </div>
                   <div class="form-group">
