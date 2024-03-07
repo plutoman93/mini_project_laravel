@@ -27,11 +27,11 @@
               <div class="card-body box-profile">
                 <div class="text-center">
                   <img class="profile-user-img img-fluid img-circle"
-                       src="../../dist/img/user4-128x128.jpg"
+                       src="{{ asset('storage')}}/{{auth()->user()->profile_photo_path}}"
                        alt="User profile picture">
                 </div>
 
-                <h3 class="profile-username text-center">Nina Mcintire</h3>
+                <h3 class="profile-username text-center">User...</h3>
 
                 <p class="text-muted text-center">Software Engineer</p>
 

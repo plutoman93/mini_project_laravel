@@ -52,10 +52,10 @@
                       <th style="width: 20%">
                           Full Name
                       </th>
-                      <th style="width: 30%">
+                      <th style="width: 20%">
                           Photo
                       </th>
-                      <th>
+                      <th style="width: 8%" class="text-center">
                           Email
                       </th>
                       <th style="width: 8%" class="text-center">
